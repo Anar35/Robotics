@@ -1,0 +1,156 @@
+#hero {
+  padding: 120px 0;
+  background-image: url("https://preview.colorlib.com/theme/robotics/img/banner-bg.jpg.webp");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+.heroBtn {
+  background: #fff;
+  border-radius: 0;
+  color: #222 !important;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  color: #fff;
+  transition: 0.4s;
+}
+.heroBtn:hover {
+  background-color: transparent;
+  border-color: white;
+  color: white !important;
+}
+#products {
+  padding: 120px 0;
+}
+.productsCard {
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2) !important;
+}
+.productBtn {
+  transition: 0.4s;
+  background-color: white;
+  color: black;
+  margin-top: 26px;
+  margin-top: 10px;
+  border-radius: 0;
+  font-weight: 600;
+  padding: 8px 30px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+.productsCard:hover {
+  cursor: pointer;
+}
+.productsCard:hover .productBtn {
+  background: linear-gradient(90deg, #828fff 0%, #d496ff 100%);
+  border-color: #8a90ff;
+  color: white;
+}
+
+.aboutBtn {
+  background: linear-gradient(90deg, #828fff 0%, #d496ff 100%);
+  border: 1px solid transparent;
+  color: white;
+  padding: 9px 30px;
+  font-size: 14px;
+  font-weight: 500;
+  display: inline-block;
+  transition: 0.4s;
+  text-decoration: none;
+}
+.aboutBtn:hover {
+  background: transparent;
+  color: #8a90ff;
+  border-color: #8a90ff;
+}
+#aboutVideo {
+  padding: 120px 0;
+}
+.h6Title {
+  color: #8a90ff;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 12px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.videoDiv {
+  background-image: url("https://preview.colorlib.com/theme/robotics/img/video-bg.jpg.webp");
+  background-size: cover;
+  height: 330px;
+  position: relative;
+  padding: 0 !important;
+}
+.videoDiv::after {
+  background: linear-gradient(90deg, #828fff 0%, #d496ff 100%);
+  content: "";
+  opacity: 0.8;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.playBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9;
+  transform: translate(-50%, -50%);
+}
+
+#feature {
+  padding: 120px 0;
+  background-image: url("https://preview.colorlib.com/theme/robotics/img/feature-bg.jpg.webp");
+  background-position: top center;
+  background-size: cover;
+}
+.featureCardTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px !important;
+  font-weight: 600 !important;
+  transition: 0.3s;
+}
+.featureCard:hover .featureCardTitle {
+  color: #8a90ff !important;
+}
+.featureCard {
+  padding: 35px;
+  background-color: white;
+  border-radius: 10px;
+}
+#brends {
+  padding-top: 120px;
+}
+.brendImg {
+  filter: grayscale(100%);
+  transition: 0.4s;
+}
+.brendImg:hover {
+  filter: grayscale(0%);
+}
+
+#blogs {
+  padding: 120px 0;
+}
+.blogBtn {
+  padding: 4px 15px;
+  border: 1px solid transparent;
+  color: white !important;
+  background: linear-gradient(90deg, #828fff 0%, #d496ff 100%);
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  transition: 0.4s;
+}
+.blogBtn:hover {
+  background: white;
+  border-color: #eee ;
+  color: black !important;
+}
